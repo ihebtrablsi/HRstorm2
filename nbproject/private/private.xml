@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/gui/AfficherBudget.fxml</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/entity/pdf.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/entity/depense.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/gui/AfficherBudgetController.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/gui/AjouterBudgetController.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/gui/AjouterDepenseController.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/Service/DepenseService.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/Service/BudgetInterface.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/gui/AjouterBudget.fxml</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/Service/depenseInterface.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/hrstorm2/BudgetInterface.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/Service/BudgetService.java</file>
+            <file>file:/C:/Users/ihebt/Documents/NetBeansProjects/HRstorm2/src/gui/AfficherDepenseController.java</file>
+        </group>
+    </open-files>
+</project-private>

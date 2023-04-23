@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="615.0" prefWidth="1028.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AfficherBudgetController">
+   <children>
+      <TableView fx:id="tableview" layoutX="332.0" layoutY="115.0" onMouseClicked="#pressTABLE" prefHeight="297.0" prefWidth="673.0">
+        <columns>
+          <TableColumn fx:id="idcol" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="budgetCol" prefWidth="75.0" text="budget" />
+            <TableColumn fx:id="primeCol" prefWidth="75.0" text="prime" />
+            <TableColumn fx:id="dateCol" prefWidth="75.0" text="date" />
+            <TableColumn fx:id="budgetColmateriel" prefWidth="136.0" text="budget materiel" />
+            <TableColumn fx:id="budgetSalaireCol" prefWidth="117.0" text="budget salaire" />
+            <TableColumn fx:id="budgetSerciceCol" prefWidth="119.0" text="budget service" />
+        </columns>
+      </TableView>
+      <TextField fx:id="budget" layoutX="126.0" layoutY="162.0" />
+      <TextField fx:id="prime" layoutX="126.0" layoutY="219.0" />
+      <TextField fx:id="budgetService" layoutX="126.0" layoutY="333.0" />
+      <TextField fx:id="budgetMateriel" layoutX="126.0" layoutY="392.0" />
+      <TextField fx:id="budgetSalaire" layoutX="126.0" layoutY="441.0" />
+      <Label layoutX="25.0" layoutY="162.0" text="budget" />
+      <Label layoutX="25.0" layoutY="219.0" text="prime" />
+      <Label layoutX="25.0" layoutY="282.0" text="date" />
+      <Label layoutX="15.0" layoutY="338.0" text="budget service" />
+      <Label layoutX="11.0" layoutY="397.0" text="budget materiel" />
+      <Label layoutX="8.0" layoutY="446.0" text="budget salaire" />
+      <Button fx:id="modifier" layoutX="173.0" layoutY="516.0" mnemonicParsing="false" onAction="#modifierBudget" prefHeight="31.0" prefWidth="112.0" text="Modifier" textFill="#f2155f" />
+      <Button fx:id="delete" layoutX="704.0" layoutY="501.0" mnemonicParsing="false" onAction="#deleteBudget" prefHeight="31.0" prefWidth="144.0" style="-fx-background-color: red;" text="Supprimer" />
+      <Text fill="#9a3b3b" layoutX="403.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Afficher Budget" wrappingWidth="186.99999582767487">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="date" layoutX="123.0" layoutY="277.0" prefHeight="31.0" prefWidth="187.0" />
+      <Button fx:id="back" layoutX="23.0" layoutY="26.0" mnemonicParsing="false" onAction="#backAjout" text="back" textFill="#655a5a" />
+      <TextField layoutX="795.0" layoutY="71.0" promptText="recherche" />
+      <Button layoutX="672.0" layoutY="71.0" mnemonicParsing="false" onAction="#PDF" text="PDF" />
+      <Button layoutX="558.0" layoutY="71.0" mnemonicParsing="false" text="Stat" />
+   </children>
+</AnchorPane>
